@@ -79,7 +79,7 @@ func ListDirectories(dirpath string, parent string, recursive bool, output map[s
 
 		// List subcontainers if asked to.
 		if recursive {
-			err := listDirectories(path.Join(dirpath, d), name, true, output)
+			err := ListDirectories(path.Join(dirpath, d), name, true, output)
 			if err != nil {
 				return err
 			}
