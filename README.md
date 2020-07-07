@@ -2,7 +2,7 @@
 fls is a fast directory tree reader for linux.
 
 ## Author
-Nao YONASHIRO (@orisano)
+Nao Yonashiro (@orisano)
 
 ## License
 BSD
